@@ -26,18 +26,18 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Urlordbaby")
+BOT_USERNAME = getenv("BOT_USERNAME", "UrShivaxMusic_bot")
+BOT_NAME = getenv("BOT_NAME", "˹𝐒ʜɪᴠᴀ ꭙ 𝐌ᴜꜱɪᴄ ♪˼")
+ASSUSERNAME = getenv("ASSUSERNAME", "˹𝐒ʜɪᴠᴀ ꭙ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 ♪˼")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003936737744))
+OWNER_ID = int(getenv("OWNER_ID", 6278373904))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -45,13 +45,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/crxxco")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUTxYUTAA")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Ig_Aanyaa")
 
 # YT-API Get from @AmShashank on tg
 YOUR_API_KEY = getenv("YOUR_API_KEY", "stranger")
@@ -97,18 +97,18 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/7bb907999ea7156227283.jpg")
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/j6qny0.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/t7bi09.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/1ugytb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/1wlwzs.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/t1dyeu.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ha11vo.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ayx0nk.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ayx0nk.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/o8b89y.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/t1dyeu.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ha11vo.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/t1dyeu.jpg"
 
 # Helper function
 def time_to_seconds(time: str) -> int:
